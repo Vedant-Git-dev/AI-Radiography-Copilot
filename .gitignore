@@ -3,3 +3,4 @@ data/Normal/
 data/processed/
 *.zip
 models/
+*__pycache__/
