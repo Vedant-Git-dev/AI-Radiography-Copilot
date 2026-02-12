@@ -9,9 +9,9 @@ import cv2
 import tempfile
 from mcp.orchestrator import mcp_infer
 
-st.set_page_config(page_title="AI Clinical Assistant (MCP)", layout="wide")
+st.set_page_config(page_title="RadiantAI", layout="wide")
 
-st.title("🩻 AI Clinical Assistant for Radiology")
+st.title("🩻 RadiantAI - Clinical Assistant for Radiology")
 st.subheader("MCP-Orchestrated COVID Screening")
 
 uploaded_file = st.file_uploader(
